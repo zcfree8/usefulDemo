@@ -14,6 +14,8 @@
 		D8664E9E1A0D105D00C4C2A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8664E9D1A0D105D00C4C2A3 /* Images.xcassets */; };
 		D8664EA11A0D105D00C4C2A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8664E9F1A0D105D00C4C2A3 /* LaunchScreen.xib */; };
 		D8664EAD1A0D105D00C4C2A3 /* usefullDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8664EAC1A0D105D00C4C2A3 /* usefullDemoTests.m */; };
+		D8664EB81A0D110E00C4C2A3 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = D8664EB71A0D110E00C4C2A3 /* NSDictionary+Safe.m */; };
+		D8664EBB1A0D112400C4C2A3 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D8664EBA1A0D112400C4C2A3 /* NSString+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		D8664EA61A0D105D00C4C2A3 /* usefullDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = usefullDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8664EAB1A0D105D00C4C2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8664EAC1A0D105D00C4C2A3 /* usefullDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = usefullDemoTests.m; sourceTree = "<group>"; };
+		D8664EB61A0D110E00C4C2A3 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		D8664EB71A0D110E00C4C2A3 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		D8664EB91A0D112400C4C2A3 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		D8664EBA1A0D112400C4C2A3 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 		D8664E8F1A0D105D00C4C2A3 /* usefullDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D8664EB91A0D112400C4C2A3 /* NSString+Additions.h */,
+				D8664EBA1A0D112400C4C2A3 /* NSString+Additions.m */,
+				D8664EB61A0D110E00C4C2A3 /* NSDictionary+Safe.h */,
+				D8664EB71A0D110E00C4C2A3 /* NSDictionary+Safe.m */,
 				D8664E941A0D105D00C4C2A3 /* AppDelegate.h */,
 				D8664E951A0D105D00C4C2A3 /* AppDelegate.m */,
 				D8664E971A0D105D00C4C2A3 /* ViewController.h */,
@@ -222,6 +232,8 @@
 				D8664E991A0D105D00C4C2A3 /* ViewController.m in Sources */,
 				D8664E961A0D105D00C4C2A3 /* AppDelegate.m in Sources */,
 				D8664E931A0D105D00C4C2A3 /* main.m in Sources */,
+				D8664EBB1A0D112400C4C2A3 /* NSString+Additions.m in Sources */,
+				D8664EB81A0D110E00C4C2A3 /* NSDictionary+Safe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				D8664EB21A0D105D00C4C2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8664EB31A0D105D00C4C2A3 /* Build configuration list for PBXNativeTarget "usefullDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				D8664EB51A0D105D00C4C2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
